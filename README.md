@@ -6,3 +6,19 @@ imgbed
 ### 前端截图
 ![首页](img/index.png)
 ![设置页](img/setting.png)
+### cloudflare worker环境变量
+|变量名字|变量含义|
+|-|-|
+|USERNAME|用户名|
+|PASSWORD|密码|
+### cloudflare worker绑定
+|绑定名字|绑定含义|
+|-|-|
+|R2|r2储存桶|
+|KV|kv存储|
+### cloudflare worker接口
+/upload POST
+basic auth
+返回 年/月/日/uuid.后缀
+/i/年/月/日/uuid.后缀 GET
+返回文件
